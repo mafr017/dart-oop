@@ -1,4 +1,5 @@
 import 'class.dart';
+import 'constant_constructor.dart';
 import 'constructor.dart';
 import 'initializer_list.dart';
 import 'named_constructor.dart';
@@ -68,6 +69,14 @@ void main(List<String> arguments) {
   print(initListCustomer1.firstName);
   print(initListCustomer1.lastName);
   print(initListCustomer1.fullName);
+  barisBaru();
+
+  var point1 = ImmutablePoint(2, 3);
+  var point2 = ImmutablePoint(2, 3);
+  print(point1 == point2);
+  var point3 = const ImmutablePoint(2, 3);
+  var point4 = const ImmutablePoint(2, 3);
+  print(point3 == point4);
 }
 
 void barisBaru() {
