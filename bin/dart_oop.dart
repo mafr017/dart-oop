@@ -1,5 +1,6 @@
 import 'class.dart';
 import 'constructor.dart';
+import 'initializer_list.dart';
 import 'named_constructor.dart';
 
 void main(List<String> arguments) {
@@ -62,6 +63,11 @@ void main(List<String> arguments) {
   print(redirectPerson2.address);
   print(redirectPerson2.country);
   barisBaru();
+
+  var initListCustomer1 = Customer("Udin Sedunia");
+  print(initListCustomer1.firstName);
+  print(initListCustomer1.lastName);
+  print(initListCustomer1.fullName);
 }
 
 void barisBaru() {

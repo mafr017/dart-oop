@@ -5,5 +5,6 @@
 3. Constructor
 4. Named Constructor
 5. Redirecting Constructor
+6. Initializer List
 
 Referensi:  [Programmer Zaman Now](https://www.youtube.com/ProgrammerZamanNow)
