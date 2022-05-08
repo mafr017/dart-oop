@@ -50,6 +50,18 @@ void main(List<String> arguments) {
   print(namedConstPerson3.address);
   print(namedConstPerson3.country);
   barisBaru();
+
+  var redirectPerson1 = Person3.withNameRedirect("M Aditya FR");
+  print(redirectPerson1.name);
+  print(redirectPerson1.address);
+  print(redirectPerson1.country);
+  barisBaru();
+
+  var redirectPerson2 = Person3.withAddressRedirect("Bandung");
+  print(redirectPerson2.name);
+  print(redirectPerson2.address);
+  print(redirectPerson2.country);
+  barisBaru();
 }
 
 void barisBaru() {
