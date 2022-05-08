@@ -1,5 +1,6 @@
 import 'class.dart';
 import 'constructor.dart';
+import 'named_constructor.dart';
 
 void main(List<String> arguments) {
   print('Selamat Belajar!');
@@ -30,6 +31,24 @@ void main(List<String> arguments) {
   print(constPerson1.name);
   print(constPerson1.address);
   print(constPerson1.country);
+  barisBaru();
+
+  var namedConstPerson1 = Person3("M Aditya FR", "Bandung");
+  print(namedConstPerson1.name);
+  print(namedConstPerson1.address);
+  print(namedConstPerson1.country);
+  barisBaru();
+
+  var namedConstPerson2 = Person3.withName("M Aditya FR");
+  print(namedConstPerson2.name);
+  print(namedConstPerson2.address);
+  print(namedConstPerson2.country);
+  barisBaru();
+
+  var namedConstPerson3 = Person3.withAddress("Bandung");
+  print(namedConstPerson3.name);
+  print(namedConstPerson3.address);
+  print(namedConstPerson3.country);
   barisBaru();
 }
 
