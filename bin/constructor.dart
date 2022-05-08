@@ -20,13 +20,18 @@ class Person2 {
   //   address = address ?? "somewhere";
   // }
 
-  // ignore: slash_for_doc_comments
   /** This Keyword 
    * keyword untuk mengakses scope diatasnya
   */
 
-  Person2(String name, String? address) {
-    this.name = name;
-    this.address = address ?? "somewhere";
-  }
+  // Person2(String name, String? address) {
+  //   this.name = name;
+  //   this.address = address ?? "somewhere";
+  // }
+
+  /** Initializing Formal Parameter
+   * mempersingkat baris code penggunaan this pada constructor
+   */
+
+  Person2(this.name, this.address);
 }
