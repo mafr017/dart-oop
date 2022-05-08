@@ -21,6 +21,9 @@ void main(List<String> arguments) {
   person3.sayHello("Coders");
   print(person3.getData());
   barisBaru();
+
+  person3.sayGoodBye("Coders");
+  barisBaru();
 }
 
 void barisBaru() {

@@ -10,3 +10,7 @@ class Person {
 
   String getData() => "Hello My Name is $name from $address, $country";
 }
+
+extension SayGoodByeOnPerson on Person {
+  void sayGoodBye(String paramName) => print("Good Bye $paramName, from $name");
+}
