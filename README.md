@@ -6,5 +6,6 @@
 4. Named Constructor
 5. Initializer List
 6. Constant Constructor
+7. Factory Constructor
 
 Referensi:  [Programmer Zaman Now](https://www.youtube.com/ProgrammerZamanNow)

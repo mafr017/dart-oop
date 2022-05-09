@@ -1,6 +1,7 @@
 import 'class.dart';
 import 'constant_constructor.dart';
 import 'constructor.dart';
+import 'factory_constructor.dart';
 import 'initializer_list.dart';
 import 'named_constructor.dart';
 
@@ -77,6 +78,14 @@ void main(List<String> arguments) {
   var point3 = const ImmutablePoint(2, 3);
   var point4 = const ImmutablePoint(2, 3);
   print(point3 == point4);
+  barisBaru();
+
+  var factoryConstDB1 = Database();
+  var factoryConstDB2 = Database();
+  print(factoryConstDB1 == factoryConstDB2);
+  var factoryConstDB3 = Database.get();
+  var factoryConstDB4 = Database.get();
+  print(factoryConstDB3 == factoryConstDB4);
 }
 
 void barisBaru() {
