@@ -8,5 +8,6 @@
 6. Constant Constructor
 7. Factory Constructor
 8. Cascade Notation
+9. Inheritance
 
 Referensi:  [Programmer Zaman Now](https://www.youtube.com/ProgrammerZamanNow)

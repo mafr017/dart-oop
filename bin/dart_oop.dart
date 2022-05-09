@@ -3,6 +3,7 @@ import 'class.dart';
 import 'constant_constructor.dart';
 import 'constructor.dart';
 import 'factory_constructor.dart';
+import 'inheritance.dart';
 import 'initializer_list.dart';
 import 'named_constructor.dart';
 
@@ -97,6 +98,14 @@ void main(List<String> arguments) {
     ?..username = "madityafr"
     ..name = "M Aditya FR"
     ..email = "madityafr@gmail.com";
+  barisBaru();
+
+  var inheritanceManager1 = Manager();
+  inheritanceManager1.name = "Walker";
+  inheritanceManager1.sayHello("John");
+  var inheritanceVicePresident1 = VicePresident();
+  inheritanceVicePresident1.name = "Tony";
+  inheritanceVicePresident1.sayHello("John");
   barisBaru();
 }
 
