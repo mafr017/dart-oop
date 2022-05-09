@@ -9,5 +9,6 @@
 7. Factory Constructor
 8. Cascade Notation
 9. Inheritance
+10. Method Overriding
 
 Referensi:  [Programmer Zaman Now](https://www.youtube.com/ProgrammerZamanNow)

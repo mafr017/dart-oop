@@ -7,10 +7,14 @@ class Manager {
   String? name;
 
   void sayHello(String paramName) {
-    print("Hello $paramName, my name is ${this.name}");
+    print("Hello $paramName, my name is manager ${this.name}");
   }
 }
 
 class VicePresident extends Manager {
   String? gender;
+
+  void sayHello(String paramName) {
+    print("Hello $paramName, my name is vicepresident ${this.name}");
+  }
 }
