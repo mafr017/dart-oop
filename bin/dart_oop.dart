@@ -6,6 +6,7 @@ import 'factory_constructor.dart';
 import 'inheritance.dart';
 import 'initializer_list.dart';
 import 'named_constructor.dart';
+import 'polymorphism.dart';
 import 'super_keyword.dart';
 
 void main(List<String> arguments) {
@@ -118,6 +119,18 @@ void main(List<String> arguments) {
   print(superConstManager.name);
   var superConstVP = VicePresident2("Yuyun");
   print(superConstVP.name);
+  barisBaru();
+
+  // Polymorphism
+  Employee employee = Employee("Aditya");
+  print(employee);
+  employee = Manager3("Aditya");
+  print(employee);
+  employee = VicePresident3("Aditya");
+  print(employee);
+  sayHellow(Employee("Aditya"));
+  sayHellow(Manager3("Fathur"));
+  sayHellow(VicePresident3("Rahman"));
   barisBaru();
 }
 

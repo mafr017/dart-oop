@@ -11,5 +11,6 @@
 9. Inheritance
 10. Method Overriding
 11. Super Keyword
+12. Polymorphism
 
 Referensi:  [Programmer Zaman Now](https://www.youtube.com/ProgrammerZamanNow)
