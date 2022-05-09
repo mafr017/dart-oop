@@ -14,5 +14,6 @@
 12. Polymorphism
 13. Type Check & Casts
 14. Abstract Class
+15. Encapsulation (Getter & Setter)
 
 Referensi:  [Programmer Zaman Now](https://www.youtube.com/ProgrammerZamanNow)

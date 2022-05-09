@@ -3,6 +3,7 @@ import 'cascade_notation.dart';
 import 'class.dart';
 import 'constant_constructor.dart';
 import 'constructor.dart';
+import 'encapsulation.dart';
 import 'factory_constructor.dart';
 import 'inheritance.dart';
 import 'initializer_list.dart';
@@ -139,6 +140,12 @@ void main(List<String> arguments) {
   print(abstractCity.name);
   abstractCity.sayHello();
   barisBaru();
+
+  var getsetRectangle = Rectangle2();
+  getsetRectangle.width = 100;
+  getsetRectangle.length = 200;
+  print(getsetRectangle.width);
+  print(getsetRectangle.length);
 }
 
 void barisBaru() {
