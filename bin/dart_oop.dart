@@ -5,6 +5,7 @@ import 'constant_constructor.dart';
 import 'constructor.dart';
 import 'encapsulation.dart';
 import 'enum_fitur.dart';
+import 'exception.dart';
 import 'factory_constructor.dart';
 import 'inheritance.dart';
 import 'initializer_list.dart';
@@ -168,6 +169,18 @@ void main(List<String> arguments) {
   var enumCostumer = Customer2("Adit", CostumerLevel.vip);
   print(enumCostumer.name);
   print(enumCostumer.level);
+  barisBaru();
+
+  // Validation.validate("madityafr", "");
+  try {
+    Validation.validate("", "");
+  } on ValidationException catch (exception, stackTrace) {
+    print("Validation Error : ${exception.message}");
+    print("Detail error :\n${stackTrace.toString()}");
+  } finally {
+    print("Finally");
+  }
+  print("try-catch validation selesai!");
   barisBaru();
 }
 
