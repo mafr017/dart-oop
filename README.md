@@ -15,5 +15,6 @@
 13. Type Check & Casts
 14. Abstract Class
 15. Encapsulation (Getter & Setter)
+16. Interface
 
 Referensi:  [Programmer Zaman Now](https://www.youtube.com/ProgrammerZamanNow)
