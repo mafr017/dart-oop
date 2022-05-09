@@ -1,3 +1,4 @@
+import 'abstract_class.dart';
 import 'cascade_notation.dart';
 import 'class.dart';
 import 'constant_constructor.dart';
@@ -131,6 +132,12 @@ void main(List<String> arguments) {
   sayHellow(Employee("Aditya"));
   sayHellow(Manager3("Fathur"));
   sayHellow(VicePresident3("Rahman"));
+  barisBaru();
+
+  // var abstractLocation = Location(); //error karena abstract class
+  var abstractCity = City("Bandung");
+  print(abstractCity.name);
+  abstractCity.sayHello();
   barisBaru();
 }
 
