@@ -18,6 +18,6 @@
 16. Interface
 17. Mixin
 18. Static & Enum
-19. Exception & try-catch
+19. Exception
 
 Referensi:  [Programmer Zaman Now](https://www.youtube.com/ProgrammerZamanNow)
