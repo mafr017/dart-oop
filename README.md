@@ -17,5 +17,6 @@
 15. Encapsulation (Getter & Setter)
 16. Interface
 17. Mixin
+18. Static & Enum
 
 Referensi:  [Programmer Zaman Now](https://www.youtube.com/ProgrammerZamanNow)

@@ -4,6 +4,7 @@ import 'class.dart';
 import 'constant_constructor.dart';
 import 'constructor.dart';
 import 'encapsulation.dart';
+import 'enum_fitur.dart';
 import 'factory_constructor.dart';
 import 'inheritance.dart';
 import 'initializer_list.dart';
@@ -157,6 +158,16 @@ void main(List<String> arguments) {
   mixinAudio.name = "Podcast Flutter";
   mixinAudio.play();
   // mixinAudio.stop(); //error
+  barisBaru();
+
+  /** Static
+ * keyword untuk membuat bisa diakses dimana saja (global)
+ * field / method static tidak bisa mengakses field/method yang static
+ */
+
+  var enumCostumer = Customer2("Adit", CostumerLevel.vip);
+  print(enumCostumer.name);
+  print(enumCostumer.level);
   barisBaru();
 }
 
