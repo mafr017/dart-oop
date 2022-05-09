@@ -16,5 +16,6 @@
 14. Abstract Class
 15. Encapsulation (Getter & Setter)
 16. Interface
+17. Mixin
 
 Referensi:  [Programmer Zaman Now](https://www.youtube.com/ProgrammerZamanNow)

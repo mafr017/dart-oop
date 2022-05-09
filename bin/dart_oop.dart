@@ -7,6 +7,7 @@ import 'encapsulation.dart';
 import 'factory_constructor.dart';
 import 'inheritance.dart';
 import 'initializer_list.dart';
+import 'mixin.dart';
 import 'named_constructor.dart';
 import 'polymorphism.dart';
 import 'super_keyword.dart';
@@ -146,6 +147,17 @@ void main(List<String> arguments) {
   getsetRectangle.length = 200;
   print(getsetRectangle.width);
   print(getsetRectangle.length);
+  barisBaru();
+
+  var mixinVideo = Video();
+  mixinVideo.name = "Belajar Dart OOP";
+  mixinVideo.play();
+  mixinVideo.stop();
+  var mixinAudio = Audio();
+  mixinAudio.name = "Podcast Flutter";
+  mixinAudio.play();
+  // mixinAudio.stop(); //error
+  barisBaru();
 }
 
 void barisBaru() {
