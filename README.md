@@ -7,5 +7,6 @@
 5. Initializer List
 6. Constant Constructor
 7. Factory Constructor
+8. Cascade Notation
 
 Referensi:  [Programmer Zaman Now](https://www.youtube.com/ProgrammerZamanNow)

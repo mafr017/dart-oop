@@ -1,3 +1,4 @@
+import 'cascade_notation.dart';
 import 'class.dart';
 import 'constant_constructor.dart';
 import 'constructor.dart';
@@ -86,6 +87,17 @@ void main(List<String> arguments) {
   var factoryConstDB3 = Database.get();
   var factoryConstDB4 = Database.get();
   print(factoryConstDB3 == factoryConstDB4);
+  barisBaru();
+
+  var cascadeNotaionUser1 = User()
+    ..username = "madityafr"
+    ..name = "M Aditya FR"
+    ..email = "madityafr@email.com";
+  User? cascadeNotaionUser2 = createuser() // cascade nullable
+    ?..username = "madityafr"
+    ..name = "M Aditya FR"
+    ..email = "madityafr@gmail.com";
+  barisBaru();
 }
 
 void barisBaru() {
