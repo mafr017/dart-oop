@@ -6,6 +6,7 @@ import 'factory_constructor.dart';
 import 'inheritance.dart';
 import 'initializer_list.dart';
 import 'named_constructor.dart';
+import 'super_keyword.dart';
 
 void main(List<String> arguments) {
   print('Selamat Belajar!');
@@ -106,6 +107,17 @@ void main(List<String> arguments) {
   var inheritanceVicePresident1 = VicePresident();
   inheritanceVicePresident1.name = "Tony";
   inheritanceVicePresident1.sayHello("John");
+  barisBaru();
+
+  var superKeywordShape1 = Rectangle();
+  print(superKeywordShape1.getCorner());
+  print(superKeywordShape1.getParentCorner());
+  barisBaru();
+
+  var superConstManager = Manager2("Dodo");
+  print(superConstManager.name);
+  var superConstVP = VicePresident2("Yuyun");
+  print(superConstVP.name);
   barisBaru();
 }
 
